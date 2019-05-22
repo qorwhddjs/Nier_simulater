@@ -91,7 +91,8 @@ input[type="radio"]{display: none}
 
 .map{width: 800px;height: 500px;overflow:hidden;position: relative;top:50px;left:50px;}
 .map img{position: absolute;top:-198px;left:-196px;}
-.map p{position: absolute;top:50%;left:50%;transform: translate(-50%,-50%);font-size: 25px;}
+.map img:active{cursor: url(cusers.png), auto}
+.map p{position: absolute;top:50%;left:50%;transform: translate(-50%,-50%);font-size: 25px;z-index: 100;}
 
 /*#ch11:checked ~ .left>ul>li:nth-child(1)>.bg{width: 210px;height: 100px;opacity: 1;box-shadow: rgba(21,21,1,0.6) 10px 10px ;}
 #ch11:checked ~ .left>ul>li:nth-child(1)>.bg ~ label>span{color:#f6f0d3;}

@@ -10,9 +10,11 @@
   src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
   integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
   crossorigin="anonymous"></script>
-	<script src="js/script.js"></script>
+	<script src="js/script.js"></script>	
 </head>
 <body oncopy="return false" oncut="return false" onpaste="return false">
+	<embed src="img/bgsound.mp3" hidden="true" loop="true" autostart="true">
+	
 	<input type="radio" name="check" id="ch1">
 	<input type="radio" name="check" id="ch2">
 	<input type="radio" name="check" id="ch3">
@@ -32,7 +34,7 @@
 		</ul>
 	</div>
 	<div class="menu">
-		<div class="product q1">
+		<div class="product q1" id="map">
 			<div class="left">
 				<div class="map">
 					<img src="img/map.png" alt="">
@@ -43,7 +45,7 @@
 			</div>
 			<div class="right"></div>
 		</div>
-		<div class="product q2">
+		<div class="product q2" id="QUEST">
 			<div class="left">
 				<ul>
 					<li><p class="bg"></p><label for="ch11"><p class="box"></p><span>@@@@@@@</span></label></li>
@@ -53,7 +55,7 @@
 			</div>
 			<div class="right"></div>
 		</div>
-		<div class="product q3">
+		<div class="product q3" id="ITEM">
 			<div class="left">
 				<ul>
 					<li><p class="bg"></p><label for="ch11"><p class="box"></p><span>$$$$$$$</span></label></li>
@@ -63,7 +65,7 @@
 			</div>
 			<div class="right"></div>
 		</div>
-		<div class="product q4">
+		<div class="product q4" id="WEAPON">
 			<div class="left">
 				<ul>
 					<li><p class="bg"></p><label for="ch11"><p class="box"></p><span>Great sword</span></label></li>
@@ -77,7 +79,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="product q5">
+		<div class="product q5" id="SKILL">
 			<div class="left">
 				<ul>
 					<li><p class="bg"></p><label for="ch11"><p class="box"></p><span>%%%%%%</span></label></li>
@@ -87,7 +89,7 @@
 			</div>
 			<div class="right"></div>
 		</div>
-		<div class="product q6">
+		<div class="product q6" id="DATA">
 			<div class="left">
 				<ul>
 					<li><p class="bg"></p><label for="ch11"><p class="box"></p><span>^^^^^^</span></label></li>
@@ -97,7 +99,7 @@
 			</div>
 			<div class="right"></div>
 		</div>
-		<div class="product q7">
+		<div class="product q7" id="SYSTEM">
 			<div class="left">
 				<ul>
 					<li><p class="bg"></p><label for="ch11"><p class="box"></p><span>&&&&&&&</span></label></li>
